@@ -31,5 +31,13 @@ namespace Chapter2
             Console.WriteLine("X format: {0:X}", 99999);
             Console.WriteLine("x format: {0:x}", 99999);
         }
+
+        private static void Tipos()
+        {
+            Console.WriteLine(typeof(Int32));
+            Int32 i = 0;
+            Double d = 0.0;
+            double dd = 0.0;
+        }
     }
 }
